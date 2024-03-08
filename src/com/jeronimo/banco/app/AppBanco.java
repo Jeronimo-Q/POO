@@ -6,7 +6,7 @@ import com.jeronimo.banco.dominio.Persona;
 
 public class AppBanco {
     public static void main(String[] args) {
-        Banco bancolombia  = new Banco("Bancolombia");
+        Banco bancolombia  = new Banco("Bancolombia SA");
         Persona Alex = new Persona("Alexander");
         CuentaBancaria miCuenta = new CuentaBancaria("12345-454",Alex,bancolombia);
 
